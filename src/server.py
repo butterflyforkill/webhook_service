@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import uvicorn
-from .google_calendar.routes import gcal_web_hook_router
-from .slack.routes import slack_web_hook_router
+from google_calendar.routes import gcal_web_hook_router
+from slack.routes import slack_web_hook_router
 
 
 app = FastAPI(title="MindGuard Webhook Service")
