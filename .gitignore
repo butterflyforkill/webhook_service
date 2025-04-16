@@ -1,7 +1,5 @@
 __pycache__/
-python_server.pem
 *.pem
 .DS_Store
 .vscode
 .mypy_cache
-webhook_service.pem
